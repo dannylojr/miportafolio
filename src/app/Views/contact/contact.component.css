@@ -1,0 +1,213 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #1a1a2e; /* Fondo azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Press Start 2P', cursive; /* Fuente retro */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    background-color: #16213e; /* Azul muy oscuro */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño grande para el título */
+    text-shadow: 2px 2px #000000; /* Sombra para el texto */
+    margin: 0; /* Sin margen */
+}
+
+h2, h3 {
+    color: #0f3460; /* Azul oscuro */
+    text-shadow: 1px 1px #000000; /* Sombra para el texto */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos del contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos de las secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1f4068; /* Azul oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 800px; /* Ancho máximo para el contenido */
+}
+
+/* Estilos de la lista */
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #0f3460; /* Azul oscuro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative; /* Para efectos de pseudo-elementos */
+}
+
+li:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+    background-color: #16213e; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Estilos de los campos de entrada */
+input, textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f3460; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 1em; /* Tamaño de fuente */
+    resize: vertical; /* Permitir redimensionar solo verticalmente */
+}
+
+input:focus, textarea:focus {
+    background-color: #16213e; /* Azul muy oscuro al enfocar */
+    outline: none; /* Sin borde de enfoque */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra al enfocar */
+}
+
+/* Estilos del botón */
+button {
+    padding: 15px;
+    background-color: #0f3460; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1em; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+}
+
+button:hover {
+    background-color: #16213e; /* Azul muy oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #16213e; /* Azul muy oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
+
+footer p {
+    margin: 0; /* Sin margen para el párrafo del pie de página */
+}
+
+/* Estilos para enlaces */
+a {
+    color: #00adb5; /* Color de enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+a:hover {
+    color: #e94560; /* Color de enlace al pasar el ratón */
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilos para mensajes de error o éxito */
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #00adb5; /* Color de fondo para mensajes de éxito */
+    color: #ffffff; /* Texto blanco */
+}
+
+.error {
+    background-color: #e94560; /* Color de fondo para mensajes de error */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #0f3460; /* Borde de las celdas */
+}
+
+th {
+    background-color: #16213e; /* Fondo de encabezados */
+    color: #ffffff; /* Texto blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #1f4068; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #0f3460; /* Color de fondo al pasar el ratón sobre la fila */
+}
+
+/* Estilos para elementos de carga */
+.loader {
+    border: 8px solid #0f3460; /* Borde de carga */
+    border-top: 8px solid #00adb5; /* Color de la parte superior */
+    border-radius: 50%; /* Círculo */
+    width: 50px; /* Ancho */
+    height: 50px; /* Alto */
+    animation: spin 1s linear infinite; /* Animación de giro */
+}
+
+/* Animación de giro */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Estilos para mensajes de alerta */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e94560; /* Color de fondo para alertas */
+    color: #ffffff; /* Texto blanco */
+    margin: 10px 0; /* Espacio superior e inferior */
+    font-weight: bold; /* Negrita */
+}

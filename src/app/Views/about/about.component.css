@@ -1,0 +1,98 @@
+body {
+    background-color: #1a1a2e; /* Fondo azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Press Start 2P', cursive; /* Fuente Press */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #16213e; /* Azul muy oscuro */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000000; /* Sombra para el texto */
+}
+
+h2 {
+    color: #0f3460; /* Azul oscuro */
+    text-shadow: 1px 1px #000000; /* Sombra para el texto */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1f4068; /* Azul oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 800px; /* Ancho máximo para el contenido */
+}
+
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #0f3460; /* Azul oscuro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #16213e; /* Azul muy oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta:hover {
+    background-color: #0f3460; /* Azul oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #16213e; /* Azul muy oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+a {
+    color: #ffffff; /* Texto blanco para los enlaces */
+    text-decoration: none; /* Quitar el subrayado predeterminado */
+    font-weight: bold; /* Hacer el texto más destacado */
+    transition: color 0.3s, text-shadow 0.3s; /* Transición suave para el cambio de color y sombra */
+}
+
+a:hover {
+    color: #4caf50; /* Color verde en el hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Añadir sombra al texto al pasar el ratón */
+}
